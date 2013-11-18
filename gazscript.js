@@ -1,0 +1,2 @@
+// JavaScript Document for Gaz
+
