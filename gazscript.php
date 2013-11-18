@@ -35,8 +35,8 @@ function load_gazscript()
 		wp_enqueue_style( 'gz_gaz_style', plugins_url('gaz.css',__FILE__) );
 		wp_enqueue_style( 'gz_amanda_style', plugins_url('amanda.css',__FILE__) );
 		global $post;
-		
-		if ($post->ID == "MY ID")
+		$categories = get_the_category( $post->ID );
+		if (in_array("my-category",$categories))
 		{
 			wp_enqueue_style( 'gz_gaz_style_specific_page', plugins_url('page-id-myid.css',__FILE__) );
 		}
