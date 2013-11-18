@@ -36,7 +36,12 @@ function load_gazscript()
 		wp_enqueue_style( 'gz_amanda_style', plugins_url('amanda.css',__FILE__) );
 		global $post;
 		$categories = get_the_category( $post->ID );
-		if (in_array("my-category",$categories))
+		$catslugs = array();
+		foreach ($categories as $category)
+		{
+			$catslugs[] = $category->slug;
+		}
+		if (in_array("my-category",$catslugs))
 		{
 			wp_enqueue_style( 'gz_gaz_style_specific_page', plugins_url('page-id-myid.css',__FILE__) );
 		}
