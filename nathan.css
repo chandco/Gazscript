@@ -1,7 +1,1027 @@
 @charset "utf-8";
 
+footer.entry-meta div.author-info {
+	position: relative;
+	margin: 0 0 0 auto;
+	right: 0;
+	width: 100%;
+	height: 118px;
+}
+footer.entry-meta div.author-info img.profile {
+
+	width: 200px;
+	height: auto;
+	position:absolute;
+	right: 0;
+	top:0;
+	z-index:1;
+	border: solid 2px #ffffff;
+	border-width: 5px;
+	transform: rotate(-3deg);  
+	-ms-transform: rotate(-3deg);  
+	-webkit-transform: rotate(-3deg);  
+	-moz-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);  
+	-ms-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);  
+	-o-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);
+	box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);  
+
+}
+
+footer.entry-meta div.author-info h2 {
+	position:absolute;
+	bottom: 2px;
+	left: -21px;
+	width: 100%;
+	line-height: 19px;
+	font-size:16px;
+	background:#fed600;
+	border: solid 2px #fed600;
+	color:#000000 !important;
+	z-index: 0;
+	padding: 3px 24px;    
+}
+
+div.author-quote {
+	position: relative;
+	margin: 0 0 15px auto;
+	right: 0;
+	width: 100%;
+	/* height: 118px; */
+	overflow: hidden;
+	padding: 10px;
+}
+div.author-quote img.profile {
+
+	width: 180px;
+	height: auto !important;
+	
+
+	position:absolute;
+	
+
+	right: 50px !important;
+	
+
+	top: 8px !important;
+	
+
+	z-index: 1;
+	border: solid 2px #ffffff;
+	border-width: 5px;
+	transform: rotate(-3deg);  
+	-ms-transform: rotate(-3deg);  
+	-webkit-transform: rotate(-3deg);  
+	-moz-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);  
+	-ms-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);  
+	-o-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);
+	-webkit-box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);
+	box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.6);  
+
+}
+
+div.author-quote span {
+	display: block;
+	width: 58%;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+}
+
+div.author-quote blockquote {
+	position: relative;
+	bottom: 0;
+	left: -21px;
+	width: 58%;
+	line-height: 17px;
+	font-size: 13px;
+	background: rgba(254, 214, 0, 0.3);
+	color: #5A5A5A !important;
+	z-index: 0;
+	padding: 3px 32px 3px 10px;    
+	font-style: italic;
+	top: 0;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+
+
+div.venue-block.venue-15 .venue-img:before {
+	content:"";
+	background:url('weddingawards_badge.jpg');
+	background-size: 40px 63px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width:40px;
+	height:63px;
+	position:absolute;
+	z-index:222;
+	bottom:5px;
+	right:5px;
+}
+body.postid-15 div#venue-carousel:before {
+	content:"";
+	background:url('weddingawards_badge.jpg');
+	background-size: 93px 150px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 93px;
+	height: 150px;
+	position:absolute;
+	z-index:222;
+	bottom: 10px;
+	right: 10px;
+}
 /* CSS Document */
+/* ITA Game On */
+body.page-template-gameon-page-php div#content {
+	/* background:none; */
+}
+body.page-template-gameon-page-php div.entry-content {
+	padding-top: 45px;
+	width: 90%;
+}
+.card-deck {
+	position:relative;
+	width:400px;
+	height:400px;
+	margin: auto;
+}
+.card-stack {
+	background-image: url(/chance/card-stack.png);
+	width:362px;
+	height:269px;
+	position:absolute;
+	margin:auto;
+	z-index:0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	left: -5px;
+	top: -18px;
+}
+.gameon-card:hover h2.draw-card {
+	background:#fee520;}.gameon-card h2.draw-card {
+	padding:10px;
+	margin:auto;
+	position: absolute;
+	left: 62px;
+	width: 193px;
+	background: #fed200;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	height: 27px;
+	line-height: 27px;
+	border: 1px solid RGBA(0,0,0,0.3);
+}
+.gameon-card .save-card {
+	display:block;
+	position:absolute;
+	bottom: 15px;
+	right: 40px;
+	background:#ffd200;
+	padding: 5px;
+	color:#000;
+	font-weight:bold;
+	font-size: large;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+.gameon-card {
+	background-image:url(/chance/turn-card-blank.png);
+	width: 242px;
+	height: 135px;
+	padding: 43px;
+	background-repeat:no-repeat;
+	background-position: left top;
+	position:absolute;
+	margin:auto;
+	z-index: 2;
+	overflow:visible;
+	color: #fff;
+}
+.gameon-content {
+font-size:12px;	
+margin: 20px;
+width: 45%;
+}
+/* GAZ ADDED STYLES */
+.gameon-image-1, .gameon-image-20 {
+float: left; position: relative; left:-80px; top: -40px; background: url(/chance/tea-time.png) no-repeat;}
+.gameon-image-3, .gameon-image-6, .gameon-image-4, .gameon-image-11 {
+float: left; position: relative; left:-80px; top: -40px; background: url(/chance/champagne.png) no-repeat;}
+.gameon-image-2, .gameon-image-15, .gameon-image-16 {
+float: left; position: relative; left:-80px; top: -20px; background: url(/chance/card-girl.png) no-repeat;}
+.gameon-image-12, .gameon-image-13 {
+float: left; position: relative; left:-80px; top: -40px; background: url(/chance/cocktail.png) no-repeat;}
+.gameon-image-5, .gameon-image-10, .gameon-image-7, .gameon-image-8, .gameon-image-18, .gameon-image-21 {
+float: left; position: relative; left:-80px; top: -40px; background: url(/chance/gift.png) no-repeat;}
+.gameon-card h2, .gameon-card p{position: relative; left: -70px; width: 320px;}
+.gameon-card h2{line-height: 18px;}
+.congrats-box {
+	width: 605px;
+	background:#fff;
+	display:none;
+	position: absolute;
+	-moz-box-shadow: 3px 5px 8px RGBA(0,0,0,0.5);  
+	-webkit-box-shadow: 3px 5px 8px RGBA(0,0,0,0.5);  
+	box-shadow: 3px 5px 8px RGBA(0,0,0,0.5);
+	z-index: 1;
+	top: 10px;
+	left: -71px;
+}
+.congrats-box #mc_embed_signup {
+	width: 50%;
+}
+.congrats-box #mc_card_complete {
+	width: 50%;
+	padding: 2%;
+}
+.congrats-box div.description {
+	width:40%;
+	clear:both;
+}
+.congrats-box div.buttons {
+	width:100%;
+	clear:both;
+}
+.gameon-card-click {
+	cursor:pointer;
+}
+body.page-template-gameon-page-php article { 
+	background-image: url(/chance/board-background.png);	
+	padding-left: 223px;
+	width: 709px;
+	margin-left: -239px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	height: 942px;
+	top: -25px;
+	padding-right: 16px;
+	position: relative;
+}
+article.page-template-gameon-page-php div.entry-content div#mc_embed_signup {
+	background:#ffffff;	
+	width: 90%;
+	position: relative;
+	margin: 25px auto;
+	-moz-box-shadow: 3px 5px 8px RGBA(0,0,0,0.5);  
+	-webkit-box-shadow: 3px 5px 8px RGBA(0,0,0,0.5);  
+	box-shadow: 3px 5px 8px RGBA(0,0,0,0.5);
+}
+body.page-template-gameon-page-php article header.entry-header {
+	/* display:none; */
+	position: relative;
+	top: 12px;
+}
+
+/* ITA GAME ON HOLDING PAGE */
+/* for ORNC Wedding fair invite */
+article h2 {
+	font-size:20px;
+}
+div.wedding-invite {
+	margin: 20px auto;
+position:relative;
+	z-index: 4;
+	
+	width: 60%;
+}
+	div.wedding-invite div {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background:rgba(248,245,227,1.00);
+	width: 100%;
+	padding: 20px 10px;
+	position: relative;
+	margin: 20px auto;
+	border: solid 1px RGBA(228,225,207,1);
+position:relative;
+	z-index: 4;
+	
+	}
+div.wedding-invite:after {
+	content:"";
+	-webkit-box-shadow: 3px 7px 10px 0 #CFCFCF;
+	box-shadow: 3px 7px 16px 1px #CFCFCF;
+border:none;
+	background:#ffffff;
+	z-index: -6;
+	-webkit-transform: rotate(3deg);
+	transform: rotate(3deg);
+	position: absolute;
+	bottom: 6px;
+	right: 16px;
+	width: 45%;
+	height: 20px;
+}
+div.wedding-invite:before {
+	content:"";
+	-webkit-box-shadow: -3px 7px 10px 0 #CFCFCF;
+	box-shadow: -3px 7px 16px 1px #CFCFCF;
+border:none;
+	background:#ffffff;
+	z-index: -6;
+	-webkit-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+	position: absolute;
+	bottom: 6px;
+	left: 16px;
+	width: 45%;
+	height: 20px;
+}
+div.wedding-invite h1 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	size:24px;
+	font-style:italic;
+	color:#B3B3B3
+}
+div.wedding-invite h3 {
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	size:16px;
+	font-style:italic;
+	color:#B3B3B3
+}
+div.wedding-invite p {
+	text-align:center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin: 10px;
+}
+div.wedding-invite a, .wedding-button {
+	width:auto;
+	padding:0 10px 0 10px;
+	height: 43px;
+	line-height: 40px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #FFFFFF;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FFFFFF), color-stop(1, #eeeeee) );
+	background:-moz-linear-gradient( center top, #fad232 5%, #d1ad0b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#eeeeee');
+	background-color:#fad232;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius: 8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+	text-indent:0;
+	border: 1px solid #D5D5D5;
+	display:inline-block;
+	color:#0d0c0d;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:normal;
+	/* width:100%; */
+	text-decoration:none;
+	text-align:center;
+	text-shadow: 0px -1px 0px #9C9C9C;
+	margin:10px;
+	font-family: "Gill Sans W01";
+}
+
+
+div.wedding-invite a:hover, .wedding-button:hover {
+	background:#C3C3C3;
+	color:#333333;
+}
 
 
 
+/* wedding lead in buttons */
+
+
+
+ul.wedding-lead-in {
+	width:100%;
+	clear:both;
+	position:relative;
+	height: 229px;
+	overflow:hidden;
+	margin:20px 0;
+	display:block;
+}
+
+ul.wedding-lead-in li a {
+	color:#000000;
+}
+
+ul.wedding-lead-in li {
+	width:32%;
+	display:block;
+	height: 100%;
+	padding-top: 24%;
+	float:left;
+	position:relative;
+	text-align:center;
+	font-family:"Gill Sans W01";
+	color:#ffffff;
+	transition:background 1s ease-out, color 1s ease-in;	
+	margin:0;
+}
+ul.wedding-lead-in li { /*:nth-child(1n) {*/
+	background:#b8e1f3;
+}
+ul.wedding-lead-in li:nth-child(2n) {
+	margin: 0 2%;
+	background:#cef78d;
+}
+ul.wedding-lead-in li:nth-child(3n) {
+	background:#fed7b0;
+}
+
+ul.wedding-lead-in li span {
+	color:#890e54;
+	font-weight:bold;
+	padding:0;
+}
+	
+ul.wedding-lead-in li div {
+	position: absolute;
+	width:100%;
+	height: 35%;
+	top:0;	
+	overflow: hidden;
+}
+	
+ul.wedding-lead-in li img {
+	width: auto;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	height: 100%;
+	clear:both;
+}
+	
+
+ul.wedding-lead-in li:hover {
+	background-color: #F17BBE;
+	color: #ffffff !important;
+}
+
+
+
+
+
+
+/* blog stuff */
+body.single-post .blog-summary img.alignleft {
+margin: 0 23px 25px 0;
+}
+.polaroid {
+-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-ms-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-o-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+border: 5px solid #fff;
+position: relative;
+margin: 0 10px 10px 0;
+}
+.rotateleft {
+transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg); 
+    -webkit-transform:rotate(-3deg); 
+}
 /* My name is Nathan and I like cats */
+article.error404 div.venue-finder {
+	width: 40%;
+	float:left;
+	margin: 0 2% 0 2%;
+}
+article.error404 div.whats-hot {
+	width: 40%;
+	float: right;
+	margin: 0 6% 0 2%;
+}
+article.error404 div.whats-hot-block {
+	margin-top: 29px;
+	background:#fff !important;
+	padding: 0;
+}
+article.error404 .whats-hot-block:nth-of-type(1) img { 
+width: 236px;
+transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+height: 128px;
+border: 2px solid #fff;
+position:relative;
+z-index:3;
+}
+article.error404 .whats-hot-block:nth-of-type(2) img { 
+transform:rotate(5deg);
+	-ms-transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+width:200px;
+height:112px;
+border: 2px solid #fff;
+position:relative;
+z-index:2;
+top: -29px;
+left: -5px;
+}
+article.error404 .whats-hot-block:nth-of-type(3) img { 
+width:150px;
+transform:rotate(-5deg);
+	-ms-transform:rotate(-5deg);
+	-webkit-transform:rotate(-5deg);
+height: 85px;
+border: 2px solid #fff;
+position:relative;
+z-index:1;
+top: -62px;
+}
+.ncta-button {
+	width:auto;
+padding:0 10px 0 10px;
+height: 43px;
+line-height: 40px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffe261;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffe261;
+	box-shadow:inset 0px 1px 0px 0px #ffe261;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fad232), color-stop(1, #d1ad0b) );
+	background:-moz-linear-gradient( center top, #fad232 5%, #d1ad0b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fad232', endColorstr='#d1ad0b');
+	background-color:#fad232;
+	-webkit-border-top-left-radius:30px;
+	-moz-border-radius-topleft:30px;
+	border-top-left-radius:30px;
+	-webkit-border-top-right-radius:30px;
+	-moz-border-radius-topright:30px;
+	border-top-right-radius:30px;
+	-webkit-border-bottom-right-radius:30px;
+	-moz-border-radius-bottomright:30px;
+	border-bottom-right-radius:30px;
+	-webkit-border-bottom-left-radius:30px;
+	-moz-border-radius-bottomleft:30px;
+	border-bottom-left-radius:30px;
+	text-indent:0;
+	border:2px solid #ffd000;
+	display:inline-block;
+	color:#0d0c0d;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	font-style:normal;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:-1px 0px 7px #f2df8a;
+}
+.ncta-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d1ad0b), color-stop(1, #fad232) );
+	background:-moz-linear-gradient( center top, #d1ad0b 5%, #fad232 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1ad0b', endColorstr='#fad232');
+	background-color:#d1ad0b;
+	color: #000;
+}
+.ncta-button:active {
+	position:relative;
+	top:1px;
+}
+#sidebar .venue-block
+{
+	margin-left: -1px;
+	width: 253px;
+	max-height: 275px;
+	min-height:100px;
+	overflow: hidden;
+}
+
+.authorpage .venue-block
+{
+	margin-left: -1px;
+	width: 253px;
+	max-height: 275px;
+	min-height:100px;
+	overflow: hidden;
+	float:left;
+	margin-right:10px;
+}
+
+#sidebar .venue-block .venue-img, .authorpage .venue-block .venue-img {
+	width: auto;
+	height:132px;
+}
+
+#sidebar .someVenues {
+
+background:#000000;
+
+	padding:10px;
+
+	color:#FFF;
+
+	width: 233px;
+
+	margin-top: 16px;
+
+margin-bottom: 9px;	
+}
+
+#venue-carousel a:nth-child(n+1) {
+	 display:none; 
+}
+
+.pdfs li {
+	background-image: url('images/icons/icon-pdf.png');	
+	padding-left:31px;
+	background-repeat:no-repeat;
+	height:31px;
+
+}
+
+.pdfs li.ddr {
+	background-image: url('images/icons/icon-reference-ddr.png');	
+}
+
+.pdfs li.christmas {
+	background-image: url('images/icons/icon-reference-christmas.png');	
+}
+
+
+
+#allvenueslist .venue-block {
+	margin: 0 8px 5px 0;
+	width:325px;
+
+}
+
+#allvenueslist .venue-block:nth-child(3n+0) {
+	margin: 0 5px 0 0;
+
+}
+
+
+.venue-block span.prev, .venue-block span.next {
+	width: 20px;
+	height: 199px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	*text-indent: -9999px;
+	z-index: 1000;
+	display:none;
+}
+
+#sliderAndText span.prev, #sliderAndText span.next{
+		width: 50px;
+	height: 412px;
+	position: absolute;
+	left: 0px;
+	top:0px;
+
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	*text-indent: -9999px;
+	z-index: 1000;
+	display:none;
+
+
+
+}
+
+.venue-block:hover span.prev, .venue-block:hover span.next, #sliderAndText:hover span.prev, #sliderAndText:hover span.next {
+	display:block;
+}
+
+.venue-block span.prev:hover, .venue-block span.next:hover, #sliderAndText span.prev:hover, #sliderAndText span.next:hover{
+	background-color:rgba(255,255,255,0.5);
+}
+.venue-block span.prev:before, .venue-block span.next:before, #sliderAndText span.prev:before, #sliderAndText span.next:before{
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
+}
+.venue-block span.prev, #sliderAndText span.prev{
+	background: url('images/prev.png') no-repeat center 60%;
+	right: 26px;
+}
+.venue-block span.next, #sliderAndText span.next{
+	background: url('images/next.png') no-repeat center center;
+
+}
+
+.venue-block span.next, .venue-block span.prev {
+	background-size: 29px 139px;
+}
+
+#sliderAndText span.next, #sliderAndText span.prev {
+	background-size: 36px 149px;
+}
+
+#sliderAndText span.next {
+	margin-left:685px;
+}
+
+.venue-block span.next {
+		margin-left:	335px;
+}
+
+
+.venue-room-row {
+    clear:both;
+}
+
+.alignleft {
+	float:left;
+	margin: 0 10px 10px 0;
+	clear:left;
+}
+
+.h3clear {
+	clear:both;
+	padding-top: 20px;
+	display:block;
+}
+
+.ita-container {
+	width: 614px;
+
+	margin: 0 0 0 -25px;
+	padding: 60px;
+	background:#000;
+	position:relative;
+	min-height:400px;
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+-webkit-border-radius: 10px;
+    border-radius: 10px;
+
+	margin-bottom: 200px;
+	margin-top: -53px;
+}
+
+
+
+body.page-id-2548 div.cycle-slideshow {
+	position:relative;
+}
+
+
+body.author div.cycle-slideshow {
+	position:relative;
+	margin-right: 300px;
+	width: 59px;
+	height: 270px;
+	display: block;
+	float: left;
+}
+
+
+body.author-jessica div.cycle-slideshow span.jessica:before {
+	content:url(images/holly-transparent-large.png);
+	position:absolute;
+	z-index:11;
+
+	left: -56px;
+	top: -28px;
+
+}
+body.page-id-2548 a.author-jessica:before {
+	content:url(images/holly-transparent.png);
+	position:absolute;
+	z-index:11;
+
+	left: -24px;
+	top: -28px;
+
+}
+
+body.archive div.video-archive-thumb span.video-overlay {
+	background:url(images/video-overlay.png);
+	background-repeat: no-repeat;
+	width:250px;
+	height:145px;
+	background-size: 250px 145px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	border: 5px solid #fff;
+	opacity: 0.8;
+}
+
+body.archive div.video-archive-thumb  {
+	position:relative;
+	width: 260px;
+	height:145px;
+
+}	
+		
+body.archive div.video-archive-thumb img {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+
+}
+
+body.archive .post:nth-child(even) .blog-img .video-archive-thumb .video-overlay {
+	transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+-webkit-transform: rotate(3deg);
+}
+
+body.archive .post:nth-child(odd) .blog-img .video-archive-thumb .video-overlay {
+	transform: rotate(-3deg);
+-ms-transform: rotate(-3deg);
+-webkit-transform: rotate(-3deg);
+}
+
+
+.venue-style-key {
+	display: block;
+    background: #fff;
+    padding: 5px;
+}
+.venue-style-key li {
+	margin-bottom:12px;
+	clear:both;
+
+}
+
+.venue-style-key li div {
+	float:left;width:23px;height:23px;
+	text-align:center;
+}
+
+.venue-style-key li img {
+	width:auto;
+	height:auto;
+	max-width:23px;
+	max-height:23px;
+}
+
+
+
+section.linkedin-tip {
+display:block;
+
+padding:10px;
+border-radius:10px;
+/* min-height:240px; */
+/* margin: 20px 0; */
+position:relative;
+left:-15px;
+overflow: hidden;
+}
+section.linkedin-tip:nth-child(even)
+{
+background: #E9E9E9;
+}
+section.linkedin-tip:nth-child(odd)
+{
+/* background:#FFF9a0; */
+}
+section.linkedin-tip h2 {
+	font-size: 28px;
+	display:block;
+	clear:both;
+	padding: 5px;
+}
+section.linkedin-tip img {
+width: 250px;
+height: 140px;
+-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-ms-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-o-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+border: 5px solid #fff;
+position:relative;
+float:left;
+margin-right:25px !important;
+margin-bottom: 57px !important;
+left:5px;
+}
+
+.blogpolaroid {
+	-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-ms-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-o-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+border: 5px solid #fff;
+position:relative;
+float:left;
+margin:10px 10px 10px 0 !important;
+left:5px;
+}
+
+.rotate-right {
+	transform:rotate(3deg);
+-ms-transform:rotate(3deg);
+-webkit-transform:rotate(3deg);
+}
+.rotate-left {
+transform:rotate(-3deg);
+-ms-transform:rotate(-3deg);
+-webkit-transform:rotate(-3deg);
+}
+section.linkedin-tip:nth-child(even) img {
+transform:rotate(3deg);
+-ms-transform:rotate(3deg);
+-webkit-transform:rotate(3deg);
+}
+
+section.linkedin-tip:nth-child(odd) img {
+transform:rotate(-3deg);
+-ms-transform:rotate(-3deg);
+-webkit-transform:rotate(-3deg);
+}
+
+a.blog-cta {
+	padding: 10px; border-radius: 10px; background: #ffd500; display: block; float: left; font-family: Arial; color: #000000; font-style: normal; font-weight: bold; font-size: 18px; margin-right:20px;
+}
+
+.ae-intimate-image, .ae-grand-image ,.ae-romantic-image, .ae-professional-image { 
+	width: 250px;height: 140px;
+-moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-ms-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-o-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+-webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+border: 5px solid #fff;
+position:relative;
+float:left;
+margin-right:25px !important;
+margin-bottom: 57px !important;
+left:5px;
+}
+
+.ae-intimate { 
+		position:relative;
+		float: left;
+}
+.ae-intimate-image { 
+transform:rotate(-3deg);
+-ms-transform:rotate(-3deg);
+	position:relative;
+-webkit-transform:rotate(-3deg);
+
+height: 155px !important;
+}
+.ae-grand { 
+	position:relative;
+	float: right;
+	top: 16px;
+}
+.ae-grand-image { 
+transform: rotate(3deg);
+-ms-transform: rotate(3deg);
+	position:relative;
+-webkit-transform: rotate(3deg);
+float: right;
+top: 10px;
+}
+.ae-romantic { 
+	position:relative;
+	float: left;
+	top: -15px;
+}
+.ae-romantic-image { 
+transform:rotate(3deg);
+-ms-transform:rotate(3deg);
+	position:relative;
+-webkit-transform:rotate(3deg);
+float: left;
+top: -16px;
+}
+.ae-professional {
+	position:relative;
+	float:right;
+	margin-top: 10px;
+	top: 14px;
+}
+.ae-professional-image { 
+transform:rotate(-3deg);
+	position:relative;
+-ms-transform:rotate(-3deg);
+float:right;
+-webkit-transform:rotate(-3deg);
+top: 10px;
+}
+
+.gallery-columns-3 img.attachment-thumbnail
+{
+	width:98%;
+}
