@@ -1,12 +1,24 @@
-@charset "utf-8";
-/* CSS Document */
-
-ul.bullets li {
-
-list-style-type: disc;
-list-style-position: inside;
-
-}
-       
-
-
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*Boop*/
+ul.bullets li {
+
+
+
+list-style-type: disc;
+
+list-style-position: inside;
+
+
+
+}
+
+       
+
+
+
+
+
