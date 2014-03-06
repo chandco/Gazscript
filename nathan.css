@@ -222,7 +222,7 @@ float: left; position: relative; left:-80px; top: -40px; background: url(/chance
 float: left; position: relative; left:-80px; top: -20px; background: url(/chance/card-girl.png) no-repeat;}
 .gameon-image-12, .gameon-image-13 {
 float: left; position: relative; left:-80px; top: -40px; background: url(/chance/cocktail.png) no-repeat;}
-.gameon-image-5, .gameon-image-22, .gameon-image-10, .gameon-image-7, .gameon-image-8, .gameon-image-18, .gameon-image-21 {
+.gameon-image-5, .gameon-image-10, .gameon-image-7, .gameon-image-8, .gameon-image-18, .gameon-image-21 {
 float: left; position: relative; left:-80px; top: -40px; background: url(/chance/gift.png) no-repeat;}
 .gameon-card h2, .gameon-card p{position: relative; left: -70px; width: 320px;}
 .gameon-card h2{line-height: 18px;}
