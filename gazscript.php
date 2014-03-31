@@ -46,33 +46,4 @@ function jslideinit( ) {
 add_shortcode('jslideinit', 'jslideinit');
 
  
-/* Author Shortcodes */
-function ita_author_quote($atts, $content) {
-	
-	
-	 $user = get_user_by( 'login', $atts["id"] );
-	 $user_ID = $user->ID;
-$username = $atts["id"];
-		$output = "
-		
-			
-				
-				
-                    
-<div class='author-quote'>";
-
-	
-$user_nicename = $user->user_nicename;
-//Ita_team_member
-$images = get_user_meta($user_ID, "wpcf-profile-picture", false);
-$image = current($images);
-$output .= " <a href='" . esc_url( get_author_posts_url($user_ID)  ) . "' rel='author'><img class='profile' src=\"" . str_replace(".jpg","-450x253.jpg",$image) . "\"></a>" . 
-					
-				
-"<blockquote>" . $content . "</blockquote>" . 
-"<span>- " . $user->first_name . "</span>" . 
-	"</div><!-- .author-info -->";
-return $output;
-}
-add_shortcode( 'authorquote', 'ita_author_quote' );
 ?>
