@@ -391,6 +391,10 @@ div.wedding-invite a, .wedding-button {
 	margin:10px;
 }
 
+#AnythingPopup_BoxContainerBody1 {
+	overflow:hidden !important;
+}
+
 
 div.wedding-invite a:hover, .wedding-button:hover {
 	background:#C3C3C3;
