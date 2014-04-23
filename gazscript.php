@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Plugin Name: GazScript
+ * Plugin Name: ITA Custom JS / CSS
  * Plugin URI: http://blog.chandco.net
- * Description: Let's Gaz & Nathan & Amanda add gravitas to any wordpress site
+ * Description: Custom JS and CSS files for ITA Website
  * Version: 1.0
  * Author: Nathan Edwards
  * Author URI: mailto:nathan.edwards@chandco.net
